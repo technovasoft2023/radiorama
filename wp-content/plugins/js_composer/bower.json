@@ -1,0 +1,50 @@
+{
+  "name": "WPBakery Page Builder",
+  "version": "5.4",
+  "homepage": "http://wpbakery.com",
+  "authors": [
+    "Michael M, WPBakery"
+  ],
+  "description": "Drag and drop page builder for WordPress. Take full control over your WordPress site, build any layout you can imagine – no programming knowledge required.",
+  "keywords": [
+    "plugin",
+    "wordpress",
+    "visual",
+    "composer"
+  ],
+  "license": "http://go.wpbakery.com/licensing",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "isotope": "metafizzy/isotope#c2ade313f0396ad0d28be53e604d9213d113f519",
+    "scrollTo": "flesler/jquery.scrollTo#05035fc5cc591ecdb08c914ec8f231b99af55800",
+    "nivoslider": "gilbitron/Nivo-Slider#09f8e5eae12f2111e5ca480d67634f93efeef1b2",
+    "jquery-ui-tabs-rotate": "cmcculloh/jQuery-UI-Tabs-Rotate#ffa48dd36d85b97127a7aee0567eb5963448245c",
+    "json-js": "douglascrockford/JSON-js#e39db4b7e6249f04a195e7dd0840e610cc9e941e",
+    "progress-circle": "qiao/ProgressCircle.js#afb1e9285ca852856f0eaedd2ee2f28e5292ba7b",
+    "bootstrap3": "twbs/bootstrap#3dd1531d81c90d6d1cf04962032f868d315ab21c",
+    "ace-builds": "ajaxorg/ace-builds#3bfda31096cf3f42b77aac64eb788584ea796822",
+    "animate-css": "daneden/animate.css#a3cf3e6c88e8318b318f8f69c9468940b8aac079",
+    "font-awesome": "FortAwesome/Font-Awesome#1c1b102b2ba19518d77e60e97cf1b4ebf133bba0",
+    "twbs-pagination": "josecebe/twbs-pagination#2ee21c16a8745e354fef2252b01ae244aba58d45",
+    "imagesloaded": "desandro/imagesloaded#b8465933e73bdbf689123c304d9d25986cdedfe1",
+    "masonry": "desandro/masonry#dec5a382574eb62a2baf2867a0b0db4bd0b78ceb",
+    "vcIconPicker": "AngeIII/fontIconPicker#9dc6e6e383ec73fd502e2bcf2ed9d5cc375224ca",
+    "lessjs": "less/less.js#d3e1531370a36dd6e213c8b4da955d0a0e1d6eb7",
+    "skrollr": "Prinzhorn/skrollr#^0.6.29",
+    "zoom": "jackmoore/zoom#6bc60cb68f8365a81346499cfd4b9ec3caa471a0"
+  },
+  "resolutions": {
+    "isotope": "5f3a2971aceea60ac2873df3b4015af1f2632ea0",
+    "masonry": "dec5a382574eb62a2baf2867a0b0db4bd0b78ceb",
+    "get-size": "^2.0.0",
+    "outlayer": "^2.1.0",
+    "fizzy-ui-utils": "^2.0.4"
+  }
+}

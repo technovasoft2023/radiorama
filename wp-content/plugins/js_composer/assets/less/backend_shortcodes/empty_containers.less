@@ -1,0 +1,20 @@
+/* Empty column tweaks
+---------------------------------------------------------- */
+.vc_empty-container {
+  .vc-empty;
+  &:hover {
+    .opacity(0.5);
+  }
+}
+
+.vc_empty-column {
+  > .vc_controls {
+    .control-main {
+      border-left: 0;
+      border-right: 0;
+    }
+    .column_add {
+      display: none;
+    }
+  }
+}

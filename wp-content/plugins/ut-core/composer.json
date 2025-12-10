@@ -1,0 +1,28 @@
+{
+    "name": "ut/ut-core",
+    "autoload": {
+        "psr-4" : {
+            "UTCore\\" : "src",
+            "UTCore\\utils\\" : "src/utils",
+            "UTCore\\front\\" : "src/front",
+            "UTCore\\admin\\" : "src/admin"
+        }
+    },
+    "authors": [
+        {
+            "name": "beshoy",
+            "email": "beshoy@digishark.com"
+        }
+    ],
+    "config": {
+        "platform-check": false,
+        "allow-plugins": {
+            "kylekatarnls/update-helper": false
+        }
+    },
+    "require": {
+        "deliciousbrains/wp-queue": "^2.1",
+        "abraham/twitteroauth": "^7.0",
+        "noweh/twitter-api-v2-php": "^3.5"
+    }
+}

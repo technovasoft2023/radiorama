@@ -1,0 +1,76 @@
+/*
+##########################################################################################
+
+BROOKLYN THEME BY UNITED THEMES™ (A BRAND OF DIGISHARK™ LLC)
+
+WEB DEVELOPMENT FORGE EST.2011
+
+WWW.UNITEDTHEMES.COM
+
+COPYRIGHT 2011 - 2025 ALL RIGHTS RESERVED BY UNITED THEMES™ (A BRAND OF DIGISHARK® LLC)
+
+##########################################################################################
+*/
+
+.ut-portfolio-wrap .ut-stackCard {
+    height: 80vh; /* fallback if no option set */
+    width: 100%;
+}
+.ut-portfolio-wrap .ut-stackCard .ut-portfolio-card,
+.ut-portfolio-wrap .ut-stackCard .ut-portfolio-inner,
+.ut-portfolio-wrap .ut-stackCard .ut-portfolio-item,
+.ut-portfolio-wrap .ut-stackCard a {
+    width: 100%;
+    height: 100%;
+}
+.ut-portfolio-wrap .ut-stackCard .ut-portfolio-item a {
+    display: block;
+}
+.ut-portfolio-wrap .ut-stackCard figure {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.ut-portfolio-wrap .ut-stackCard img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.ut-cardStacking .ut-cards-hover:hover .ut-hover-layer {
+    opacity: 1;
+}
+.ut-cardStacking .ut-cards-hover:hover .ut-portfolio-info-c {
+    -webkit-animation-name: zoomIn;
+    animation-name: zoomIn;
+}
+.ut-cardStacking.ut-bottom-gutter-0 .ut-stackCard-spacer {
+    height: 0;
+}
+.ut-cardStacking.ut-bottom-gutter-20 .ut-stackCard-spacer {
+    height: 20px;
+}
+.ut-cardStacking.ut-bottom-gutter-40 .ut-stackCard-spacer {
+    height: 40px;
+}
+.ut-cardStacking.ut-bottom-gutter-60 .ut-stackCard-spacer {
+    height: 60px;
+}
+.ut-cardStacking.ut-bottom-gutter-80 .ut-stackCard-spacer {
+    height: 80px;
+}
+.ut-cardStacking.ut-bottom-gutter-100 .ut-stackCard-spacer {
+    height: 100px;
+}
+.ut-cardStacking.ut-bottom-gutter-120 .ut-stackCard-spacer {
+    height: 120px;
+}
+@media screen and (max-width: 767px) {
+    .ut-cardStacking.ut-bottom-gutter-80 .ut-stackCard-spacer {
+        height: 40px;
+    }
+}
+@media screen and (max-width: 400px) {
+    .ut-cardStacking.ut-bottom-gutter-80 .ut-stackCard-spacer {
+        height: 20px;
+    }
+}

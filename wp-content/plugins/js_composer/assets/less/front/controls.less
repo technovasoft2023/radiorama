@@ -1,0 +1,170 @@
+
+body:not(.is-fullscreen) {
+  .edit_form_line {
+    .vc_col-xs-1, .vc_col-xs-2, .vc_col-xs-3, .vc_col-xs-4, .vc_col-xs-5, .vc_col-xs-6, .vc_col-xs-7, .vc_col-xs-8, .vc_col-xs-9, .vc_col-xs-10, .vc_col-xs-11, .vc_col-xs-12{
+      width: 100%;
+    }
+  }
+  .vc_controls-out-tl {
+    .vc_element.element-vc_section {
+      left: -60px;
+    }
+  }
+  .vc_param-group-admin-labels {
+    max-width: 25%;
+  }
+  .vc_properties-list input, .vc_properties-list select {
+    padding: 4px 24px 4px 6px !important;
+    margin: 0;
+    font-size: 12px !important;
+    font-weight: 500;
+    background-color: #fafafa !important;
+    color: #777d83 !important;
+    border: 1px solid #e1e2e8 !important;
+  }
+  .vc_properties-list textarea{
+    color: #777d83 !important;
+  }
+  .ut-responsive-slider-tab .wpb_element_label {
+    color: #5c6064 !important;
+  }
+  .vc_properties-list input[type="checkbox"],.vc_properties-list input[type="radio"] {
+    padding: 0 !important;
+    margin-right: 5px !important;
+  }
+  .pickr .pcr-button {
+    border: 1px dotted #d9d8d8;
+  }
+  .vc_general.vc_ui-button {
+    line-height: 20px !important;
+    height: 34px !important;
+  }
+  .vc_layout-onion {
+    input[type="text"] {
+      padding: 0 !important;
+    }
+  }
+  .vc_properties-list .ut-responsive-slider-tab-group {
+    .edit_form_line {
+      padding-bottom: 36px !important;
+    }
+    &.ut-responsive-slider-tab-group-last > .edit_form_line {
+      padding: 10px 20px 32px !important;
+    }
+    .ut-responsive-slider-tab {
+      .ut-range-slider-wrap {
+        display: block;
+        clear: both;
+        position: relative;
+        &:after {
+          content: "";
+          display: table;
+          clear: both;
+        }
+        .ut-range-slider-unit-wrap {
+          width: 90px;
+        }
+        .ut-range-value-wrap, .ut-range-slider-unit-wrap, .ut-range-slider-actions {
+          float: left;
+        }
+        .ut-range-slider {
+          width: 100%;
+          max-width: 100%;
+          margin: 15px 0;
+          margin-left: unset;
+        }
+        input, select {
+          padding: 2px 23px 2px 6px !important;
+          max-height: 30px;
+          min-height: 30px;
+          margin-right: 2px;
+          border-radius: 0;
+          border-color: #ededed !important;
+        }
+        .ut-range-slider-actions > button {
+          border-color: #ededed !important;
+          &.ut-set-inherit {
+            margin-right: 2px;
+          }
+        }
+        .ut-range-value-info {
+          height: 30px;
+          line-height: 14px;
+        }
+      }
+      .ut-range-value-wrap, .ut-range-slider-unit-wrap {
+        height: 31px;
+      }
+      .ut-range-slider-actions {
+        flex-direction: row;
+        margin-right: 0;
+      }
+
+    }
+  }
+  .ut-responsive-slider-tab .ut-range-value + .ut-range-slider-unit-info, .ut-range-slider-unit + .ut-range-slider-unit-info, .ut-range-value-info + .ut-range-slider-unit-info {
+    margin-right: 2px;
+  }
+  .ut-responsive-slider-tab .ut-range-value + .ut-range-slider-unit-info, .ut-range-slider-unit + .ut-range-slider-unit-info, .ut-range-value-info + .ut-range-slider-unit-info {
+    position: relative;
+    transform: none;
+  }
+  .ut-responsive-control {
+    position: fixed;
+    bottom: 82px;
+    left: 247px;
+    z-index: 999999;
+    display: none;
+    &.active {
+      display: block;
+    }
+    ul {
+      background: #282d33;
+      margin: 0;
+      display: block;
+      max-width: 37px;
+      overflow: hidden;
+      li {
+        display: block;
+        margin: 0;
+      }
+      a {
+        color: #fff;
+        text-decoration: none;
+        padding:12px 12px;
+        display: block;
+        transition: all 300ms;
+        outline: 0;
+        &:hover {
+          background: #028E2D;
+          outline: 0;
+        }
+      }
+    }
+  }
+  #vc_screen-size-control .vc_dropdown-list {
+    display: none !important;
+    visibility: hidden !important;
+    opacity: 0;
+  }
+  .edit-form-info + .tooltip-content {
+    background: #f9f9f9;
+    border-color: #e1e1e1;
+    box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.04);
+    color: #393c3e;
+  }
+  .edit-form-info + .tooltip-content a {
+    color: #000;
+  }
+}
+body.is-fullscreen {
+  #wpwrap .vc_ui-button.vc_ui-button-action, #wpwrap .vc_ui-panel-footer .vc_ui-button.vc_ui-button-action {
+    background-color: #2ee636 !important;
+    color: #000;
+    height: 40px;
+    line-height: 28px;
+    &:hover {
+      background-color: #15b71d !important;
+    }
+  }
+}

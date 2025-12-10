@@ -1,0 +1,178 @@
+@import "../vc_ui-button.less";
+@import "../vc_ui-icon-pixel.less";
+@import "../vc_ui-dropdown.less";
+@import "../vc_ui-tabs-line.less";
+
+@vcui-panel-header-font-size: 14px;
+@vcui-panel-header-padding-horizontal: 18px;
+@vcui-panel-header-padding-vertical: 14px;
+@vcui-panel-header-gap: 16px;
+@vcui-panel-header-background: @vc_main_color;
+@vcui-panel-header-color: #fff;
+@vcui-panel-header-heading-font-size: 18px;
+@vcui-panel-header-search-width: 200px;
+@vcui-panel-header-search-width-focus: 110%;
+@vcui-panel-header-search-color: #333;
+@vcui-panel-header-search-placeholder-color: #aaa;
+@vcui-panel-header-transition-duration: .2s;
+
+.vc_ui-panel-header-container {
+  padding: 10px 0;
+  background: @vcui-panel-header-background;
+  margin: 0;
+  font-size: @vcui-panel-header-font-size;
+  &.vc_ui-panel-header-o-stacked-bottom {
+    padding-bottom: 0;
+  }
+}
+
+.vc_ui-panel-header {
+  color: @vcui-panel-header-color;
+  &::after {
+    content: '';
+    display: block;
+    clear: both;
+    height: 0;
+    visibility: hidden;
+  }
+
+  .vc_ui-panel-header-controls {
+    float: right;
+    margin: -2px 0 0 12px;
+    padding-right: 25px;
+
+    .vc_ui-dropdown {
+      display: inline-block;
+    }
+    .vc_ui-dropdown-content {
+      left: auto;
+      right: 0;
+    }
+  }
+
+  .vc_ui-panel-header-header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-left: 25px;
+  }
+
+  .vc_ui-panel-header-heading {
+    flex-grow: 1;
+    margin: 0 1em 0 0;
+    font-size: 13px;
+    text-transform: capitalize;
+    letter-spacing: 0;
+    color: inherit;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .vc_ui-panel-header-actions {
+
+  }
+  .vc_ui-panel-header-content {
+    clear: both;
+    background: #ebebeb;
+  }
+
+  .vc_ui-control-button {
+    margin: 0;
+    padding: 0;
+    // buttons with icons
+    .vc-composer-icon {
+      font-size: 12px;
+    }
+    .vc-c-icon-cog {
+      display: inline-block;
+      margin-top: 2px;
+      font-size: 12px;
+    }
+    .vc-c-icon-close {
+      font-size: 12px;
+      margin-top: 5px;
+      display: inline-block;
+    }
+  }
+  .vc_ui-minimize-button {
+    display: none !important;
+  }
+  .vc_ui-close-button {
+    margin-left: 8px !important;
+  }
+}
+
+.vc_ui-add-element-header-container .vc_ui-panel-header .vc_ui-panel-header-controls {
+  margin: 4px 0 0 12px;
+}
+
+// search box
+.vc_ui-search-box {
+  width: @vcui-panel-header-search-width;
+  input[type=search] {
+    display: inline-block;
+    margin: 0;
+    padding: 4px 12px 4px 32px;
+    line-height: normal;
+    font-size: 11px;
+    letter-spacing: .5px;
+    font-family: inherit;
+    vertical-align: middle;
+    color: @vcui-panel-header-search-color;
+    border: none;
+    box-sizing: border-box;
+    transition: all .2s ease-in-out;
+    border-radius: 5px;
+    width: 100%;
+    position: relative;
+    left: 0;
+    min-height: 26px;
+    &:focus {
+      color: @vcui-panel-header-search-color !important;
+      box-shadow: none !important;
+    }
+    &::-moz-placeholder {
+      .style-placeholder();
+      opacity: 1;
+    }
+    &:-ms-input-placeholder {
+      .style-placeholder();
+    }
+    &::-webkit-input-placeholder {
+      .style-placeholder();
+    }
+    .style-placeholder() {
+      text-overflow: ellipsis;
+      line-height: inherit;
+      color: @vcui-panel-header-search-placeholder-color;
+      font-size: inherit;
+      font-style: italic;
+    }
+  }
+  .vc_ui-search-box-input {
+    position: relative;
+    label {
+      height: 24px;
+      width: 24px;
+      content: '';
+      display: block;
+      position: absolute;
+      left: 8px;
+      top: 8px;
+      bottom: 0;
+      margin: auto;
+      transition-property: color;
+      transition-duration: @vcui-panel-header-transition-duration;
+      transition-timing-function: ease-in-out;
+      cursor: pointer;
+      color: #BFC2C8;
+      font-size: 16px;
+    }
+
+    input[type=search]:focus + label {
+      cursor: default;
+      color: #7F8591;
+    }
+  }
+}
+

@@ -1,0 +1,100 @@
+<wpml-config>
+    <custom-types>
+        <custom-type translate="1" display-as-translated="1">portfolio</custom-type>
+        <custom-type translate="1" display-as-translated="1">ut-content-block</custom-type>
+    </custom-types>
+    <taxonomies>
+        <taxonomy translate="1" display-as-translated="1">portfolio-category</taxonomy>
+    </taxonomies>
+    <shortcodes>
+        <shortcode>
+            <tag>ut_header</tag>
+            <attributes>
+                <attribute>title</attribute>
+                <attribute>content</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>ut_btn</tag>
+            <attributes>
+                <attribute>button_text</attribute>
+                <attribute encoding="vc_link">button_link</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>ut_probar_thin</tag>
+            <attributes>
+                <attribute>info</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>ut_probar</tag>
+            <attributes>
+                <attribute>info</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>ut_information_box</tag>
+            <attributes>
+                <attribute>headline</attribute>
+                <attribute encoding="vc_link">link</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>ut_pricing_table</tag>
+            <attributes>
+                <attribute>headline</attribute>
+                <attribute>subheadline</attribute>
+                <attribute type="media-ids">image</attribute>
+                <attribute>video</attribute>
+                <attribute>price</attribute>
+                <attribute>currency</attribute>
+                <attribute type="area" encoding="urlencoded_json">features</attribute>
+                <attribute>button_text</attribute>
+                <attribute encoding="vc_link">button_link</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>ut_service_column</tag>
+            <attributes>
+                <attribute>headline</attribute>
+                <attribute encoding="vc_link">link</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>ut_service_column_vertical</tag>
+            <attributes>
+                <attribute>headline</attribute>
+                <attribute encoding="vc_link">link</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>ut_service_column</tag>
+            <attributes>
+                <attribute>headline</attribute>
+                <attribute encoding="vc_link">link</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>ut_fancy_list</tag>
+            <attributes>
+                <attribute>list_description</attribute>
+                <attribute encoding="urlencoded_json">values</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>ut_animated_image</tag>
+            <attributes>
+                <attribute>custom_caption</attribute>
+                <attribute>custom_caption_small</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>ut_big_icon</tag>
+            <attributes>
+                <attribute>title</attribute>
+                <attribute>slogan</attribute>
+            </attributes>
+        </shortcode>
+    </shortcodes>
+</wpml-config>

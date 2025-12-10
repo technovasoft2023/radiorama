@@ -1,0 +1,427 @@
+{
+  "globalOptions": {
+    "browsers": [
+      ">1%",
+      "not dead"
+    ],
+    "less": {
+      "srcPath": "assets/less/",
+      "srcFiles": [
+        "js_composer.less",
+        "js_composer_tta.less",
+        "js_composer_settings.less",
+        "js_composer_frontend_editor_iframe.less",
+        "js_composer_frontend_editor.less",
+        "js_composer_backend_editor.less",
+        "jquery-ui-less.custom.less"
+      ],
+      "destPath": "assets/css/"
+    },
+    "fontLibs": {
+      "srcPath": "assets/css/lib/",
+      "srcFiles": [
+        "monosocialiconsfont/monosocialiconsfont.css",
+        "typicons/typicons.css",
+        "vc-entypo/vc_entypo.css",
+        "vc-linecons/vc_linecons_icons.css",
+        "vc-material/vc_material.css",
+        "vc-open-iconic/vc_openiconic.css",
+        "isotope/isotope.css"
+      ],
+      "destPath": "assets/css/lib/"
+    },
+    "js": {
+      "srcPath": "assets/js/",
+      "destPath": "assets/js/dist/"
+    },
+    "jsLibs": {
+      "srcPath": "assets/lib/vc/"
+    },
+    "cssLibs": {
+      "srcPath": "assets/lib/vc/"
+    },
+    "modules": {
+      "srcPath": "modules/"
+    }
+  },
+  "nodeModules": {
+    "srcPath": "assets/lib/vendor/node_modules/",
+    "js": [
+      {
+        "src": "json-js/json2.js",
+        "dest": "json-js/"
+      },
+      {
+        "src": "bootstrap3/js/affix.js",
+        "dest": "bootstrap3/js/"
+      },
+      {
+        "src": "bootstrap3/js/alert.js",
+        "dest": "bootstrap3/js/"
+      },
+      {
+        "src": "bootstrap3/js/button.js",
+        "dest": "bootstrap3/js/"
+      },
+      {
+        "src": "bootstrap3/js/carousel.js",
+        "dest": "bootstrap3/js/"
+      },
+      {
+        "src": "bootstrap3/js/collapse.js",
+        "dest": "bootstrap3/js/"
+      },
+      {
+        "src": "bootstrap3/js/dropdown.js",
+        "dest": "bootstrap3/js/"
+      },
+      {
+        "src": "bootstrap3/js/modal.js",
+        "dest": "bootstrap3/js/"
+      },
+      {
+        "src": "bootstrap3/js/popover.js",
+        "dest": "bootstrap3/js/"
+      },
+      {
+        "src": "bootstrap3/js/scrollspy.js",
+        "dest": "bootstrap3/js/"
+      },
+      {
+        "src": "bootstrap3/js/tab.js",
+        "dest": "bootstrap3/js/"
+      },
+      {
+        "src": "bootstrap3/js/tooltip.js",
+        "dest": "bootstrap3/js/"
+      },
+      {
+        "src": "bootstrap3/js/transition.js",
+        "dest": "bootstrap3/js/"
+      }
+    ],
+    "css": [
+      {
+        "src": "flexslider/flexslider.css",
+        "dest": "flexslider/"
+      },
+      {
+        "src": "nivo-slider/nivo-slider.css",
+        "dest": "nivo-slider/"
+      },
+      {
+        "src": "nivo-slider/themes/default/default.css",
+        "dest": "nivo-slider/themes/default/"
+      }
+    ]
+  },
+  "uglifyList": [
+    {
+      "dest": "post-code-editor.min.js",
+      "src": [
+        "editors/post-settings-editor.js"
+      ]
+    },
+    {
+      "dest": "settings.min.js",
+      "src": [
+        "lib/template.js",
+        "lib/vc-roles-tab.js",
+        "lib/vc_less.js",
+        "backend/composer-settings-page.js",
+        "lib/messages.js",
+        "lib/settings.js",
+        "lib/info-tooltip.js"
+      ]
+    },
+    {
+      "dest": "backend-actions.min.js",
+      "src": [
+        "lib/events.js",
+        "backend/backend-access-policy.js",
+        "backend/backend-access-actions.js"
+      ]
+    },
+    {
+      "dest": "backend.min.js",
+      "src": [
+        "editors/helpers/htmlUtils.js",
+        "lib/template.js",
+        "editors/ui/vc_ui-extend-backbone.js",
+        "editors/panels.js",
+        "editors/ui/vc_ui-tabs-line.js",
+        "editors/helpers/scrollToElement.js",
+        "editors/ui/helpers/vc_ui-helper-ajax.js",
+        "editors/ui/helpers/vc_ui-helper-prompts.js",
+        "editors/ui/helpers/vc_ui-helper-panel-view-draggable.js",
+        "editors/ui/helpers/vc_ui-helper-panel-view-resizable.js",
+        "editors/ui/helpers/vc_ui-helper-templates-panel-search.js",
+        "editors/ui/helpers/vc_ui-helper-panel-view-header-footer.js",
+        "editors/ui/vc_ui-panel-template-window.js",
+        "editors/ui/vc_ui-panel-add-element.js",
+        "editors/ui/edit-element/vc_ui-extend-presets.js",
+        "editors/ui/edit-element/vc_ui-extend-templates.js",
+        "editors/ui/edit-element/vc_ui-panel-edit-element.js",
+        "editors/ui/templates/vc_ui-templates.js",
+        "editors/ui/vc_ui-panel-post-settings.js",
+        "editors/ui/vc_ui-panel-row-layout.js",
+        "editors/ui/vc_ui-panel-preset-settings.js",
+        "backend/composer-tools.js",
+        "params/composer-atts.js",
+        "backend/composer-storage.js",
+        "backend/composer-models.js",
+        "backend/backend-shortcodes-core.js",
+        "lib/messages.js",
+        "backend/composer-view.js",
+        "backend/composer-custom-views.js",
+        "backend/media-editor.js",
+        "lib/vc-pointers/vc-pointer-message.js",
+        "lib/vc-pointers/vc-pointers-controller.js",
+        "lib/vc-pointers/pointers.js",
+        "lib/undoredo/undoredo.js",
+        "lib/undoredo/undoredo-ui-backend.js",
+        "lib/copy-paste.js",
+        "lib/promo-popup.js",
+        "lib/info-tooltip.js"
+      ]
+    },
+    {
+      "dest": "grid-builder.min.js",
+      "src": [
+        "params/vc_grid_item/grid-builder-access-actions.js",
+        "params/vc_grid_item/editor.js"
+      ]
+    },
+    {
+      "dest": "frontend-editor.min.js",
+      "src": [
+        "lib/template.js",
+        "lib/events.js",
+        "editors/helpers/htmlUtils.js",
+        "editors/ui/vc_ui-tabs-line.js",
+        "editors/ui/vc_ui-extend-backbone.js",
+        "backend/composer-tools.js",
+        "backend/media-editor.js",
+        "params/composer-atts.js",
+        "frontend_editor/shortcodes_builder.js",
+        "frontend_editor/models.js",
+        "frontend_editor/editors/panels.js",
+        "frontend_editor/editors/helpers/scrollToElement.js",
+        "frontend_editor/editors/ui/helpers/vc_ui-helper-ajax.js",
+        "frontend_editor/editors/ui/helpers/vc_ui-helper-prompts.js",
+        "frontend_editor/editors/ui/helpers/vc_ui-helper-panel-view-header-footer.js",
+        "frontend_editor/editors/ui/helpers/vc_ui-helper-templates-panel-search.js",
+        "frontend_editor/editors/ui/helpers/vc_ui-helper-panel-view-resizable.js",
+        "frontend_editor/editors/ui/helpers/vc_ui-helper-panel-view-draggable.js",
+        "frontend_editor/editors/ui/vc_ui-panel-template-window.js",
+        "frontend_editor/editors/ui/vc_ui-panel-add-element.js",
+        "frontend_editor/editors/ui/edit-element/vc_ui-extend-presets.js",
+        "frontend_editor/editors/ui/edit-element/vc_ui-extend-templates.js",
+        "frontend_editor/editors/ui/edit-element/vc_ui-panel-edit-element.js",
+        "frontend_editor/editors/ui/templates/vc_ui-templates.js",
+        "frontend_editor/editors/ui/vc_ui-panel-post-settings.js",
+        "frontend_editor/editors/ui/vc_ui-panel-row-layout.js",
+        "frontend_editor/editors/ui/vc_ui-panel-preset-settings.js",
+        "lib/messages.js",
+        "frontend_editor/frontend_editor.js",
+        "frontend_editor/custom_views.js",
+        "frontend_editor/shortcodes/containers/container.js",
+        "frontend_editor/shortcodes/containers/container_with_parent.js",
+        "frontend_editor/shortcodes/containers/vc_section.js",
+        "frontend_editor/shortcodes/containers/vc_row.js",
+        "frontend_editor/shortcodes/containers/vc_column.js",
+        "frontend_editor/shortcodes/containers/vc_row_inner.js",
+        "frontend_editor/shortcodes/containers/vc_column_inner.js",
+        "frontend_editor/shortcodes/content/vc_column_text.js",
+        "frontend_editor/shortcodes/charts/vc_pie.js",
+        "frontend_editor/shortcodes/charts/vc_round_chart.js",
+        "frontend_editor/shortcodes/charts/vc_line_chart.js",
+        "frontend_editor/shortcodes/images/vc_single_image.js",
+        "frontend_editor/shortcodes/images/vc_images_carousel.js",
+        "frontend_editor/shortcodes/images/vc_gallery.js",
+        "frontend_editor/shortcodes/content/vc_posts_slider.js",
+        "frontend_editor/shortcodes/content/vc_toggle.js",
+        "frontend_editor/shortcodes/content/vc_raw_js.js",
+        "frontend_editor/shortcodes/grids/vc_basic_grid.js",
+        "frontend_editor/shortcodes/grids/vc_masonry_grid.js",
+        "frontend_editor/shortcodes/grids/vc_media_grid.js",
+        "frontend_editor/shortcodes/grids/vc_masonry_media_grid.js",
+        "frontend_editor/shortcodes/tta/vc_tta_accordion.js",
+        "frontend_editor/shortcodes/tta/vc_tta_tabs.js",
+        "frontend_editor/shortcodes/tta/vc_tta_tour.js",
+        "frontend_editor/shortcodes/tta/vc_tta_toggle.js",
+        "frontend_editor/shortcodes/tta/vc_tta_pageable.js",
+        "frontend_editor/shortcodes/tta/vc_tta_section.js",
+        "frontend_editor/shortcodes/tta/vc_tta_toggle_section.js",
+        "frontend_editor/shortcodes/tta/tta_events.js",
+        "frontend_editor/shortcodes/deprecated/vc_carousel.js",
+        "frontend_editor/shortcodes/deprecated/tabs/vc_tabs.js",
+        "frontend_editor/shortcodes/deprecated/tabs/vc_tour.js",
+        "frontend_editor/shortcodes/deprecated/tabs/vc_tab.js",
+        "frontend_editor/shortcodes/deprecated/tabs/vc_accordion.js",
+        "frontend_editor/shortcodes/deprecated/tabs/vc_accordion_tab.js",
+        "frontend_editor/build.js",
+        "lib/vc-pointers/vc-pointer-message.js",
+        "lib/vc-pointers/vc-pointers-controller.js",
+        "lib/vc-pointers/pointers.js",
+        "lib/undoredo/undoredo.js",
+        "lib/undoredo/undoredo-ui.js",
+        "lib/copy-paste.js",
+        "lib/promo-popup.js",
+        "lib/info-tooltip.js"
+      ]
+    },
+      {
+      "dest": "page_editable.min.js",
+      "src": [
+        "frontend_editor/vc_page_editable.js",
+        "lib/vc-pointers/vc-pointer-message.js"
+      ]
+    },
+    {
+      "dest": "edit-form.min.js",
+      "src": [
+        "params/column_offset.js",
+        "params/css_editor.js",
+        "params/params_preset.js",
+        "params/all.js",
+        "params/vc_grid_item/param.js"
+      ]
+    },
+    {
+      "dest": "js_composer_front.min.js",
+      "src": [
+        "js_composer_front.js"
+      ]
+    },
+    {
+      "dest": "vc_grid.min.js",
+      "src": [
+        "components/vc_grid_style_all.js",
+        "components/vc_grid_style_load_more.js",
+        "components/vc_grid_style_lazy.js",
+        "components/vc_grid_style_pagination.js",
+        "components/vc_grid_style_all_masonry.js",
+        "components/vc_grid_style_lazy_masonry.js",
+        "components/vc_grid_style_load_more_masonry.js",
+        "components/vc_grid.js"
+      ]
+    }
+  ],
+  "modules": {
+    "srcPath": "modules/",
+    "moduleCssList": [
+      {
+        "dest": "ai/assets/dist/",
+        "src": "ai/assets/less/module.less"
+      },
+      {
+        "dest": "automapper/assets/dist/",
+        "src": "automapper/assets/less/module.less"
+      },
+      {
+        "dest": "custom-css/assets/dist/",
+        "src": "custom-css/assets/less/module.less"
+      },
+      {
+        "dest": "custom-js/assets/dist/",
+        "src": "custom-js/assets/less/module.less"
+      },
+      {
+        "dest": "design-options/assets/dist/",
+        "src": "design-options/assets/less/module.less"
+      },
+      {
+        "dest": "post-custom-layout/assets/dist/",
+        "src": "post-custom-layout/assets/less/module.less"
+      },
+      {
+        "dest": "seo/assets/dist/",
+        "src": "seo/assets/less/module.less"
+      }
+    ],
+    "moduleUglifyList": [
+      {
+        "dest": "seo/assets/dist/module.min.js",
+        "src": [
+          "seo/assets/js/utils.js",
+          "seo/assets/js/checks.js",
+          "seo/assets/js/storage.js",
+          "seo/assets/js/seo-analysis-view.js",
+          "seo/assets/js/vc_ui-panel-seo-settings.js"
+        ]
+      },
+      {
+        "dest": "ai/assets/dist/module.min.js",
+        "src": [
+          "ai/assets/js/ai-modal.js",
+          "ai/assets/js/ai-form-view.js"
+        ]
+      },
+      {
+        "dest": "custom-css/assets/dist/module.min.js",
+        "src": [
+          "custom-css/assets/js/module.js"
+        ]
+      },
+      {
+        "dest": "custom-js/assets/dist/module.min.js",
+        "src": [
+          "custom-js/assets/js/module.js"
+        ]
+      },
+      {
+        "dest": "design-options/assets/dist/module.min.js",
+        "src": [
+          "design-options/assets/js/module.js"
+        ]
+      },
+      {
+        "dest": "post-custom-layout/assets/dist/module.min.js",
+        "src": [
+          "post-custom-layout/assets/js/module.js"
+        ]
+      },
+      {
+        "dest": "automapper/assets/dist/module.min.js",
+        "src": [
+          "automapper/assets/js/module.js"
+        ]
+      }
+    ]
+  },
+  "modulesMainFile": {
+    "srcPath": "modules/",
+    "destPath": "assets/js/dist/",
+    "cssDestPath": "assets/css/",
+    "modulesMainCssList": [
+      {
+        "dest": "modules.min.css",
+        "src": [
+          "seo/assets/less/module.less",
+          "ai/assets/less/module.less",
+          "custom-css/assets/less/module.less",
+          "custom-js/assets/less/module.less",
+          "design-options/assets/less/module.less",
+          "post-custom-layout/assets/less/module.less",
+          "automapper/assets/less/module.less"
+        ]
+      }
+    ],
+    "modulesMainFileUglifyList": [
+      {
+        "dest": "modules.min.js",
+        "src": [
+          "seo/assets/js/utils.js",
+          "seo/assets/js/checks.js",
+          "seo/assets/js/storage.js",
+          "seo/assets/js/seo-analysis-view.js",
+          "seo/assets/js/vc_ui-panel-seo-settings.js",
+          "ai/assets/js/ai-modal.js",
+          "ai/assets/js/ai-form-view.js",
+          "post-custom-layout/assets/js/module.js"
+        ]
+      }
+    ]
+  }
+}

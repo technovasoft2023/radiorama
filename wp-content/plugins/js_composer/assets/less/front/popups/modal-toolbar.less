@@ -1,0 +1,40 @@
+.ut-toolbar {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 50px;
+  //box-shadow: 3px 0px 5px 1px #efeaea;
+  z-index: 1;
+  padding-top: 54px;
+  background: #282d33 !important;
+  .vc_navbar-nav {
+    margin: 0;
+    li {
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      border-bottom: 1px solid #424242;
+      margin-bottom: 0;
+      background: transparent;
+      transition: all 300ms;
+      &.vc_pull-right {
+        float: none !important;
+      }
+      &:hover {
+        background: #028E2D;
+      }
+      a {
+        text-decoration: none;
+        color: #fff;
+        padding: 17px 19px;
+      }
+      [class*=vc_ui-badge--] i::after {
+        top: 12px;
+        right: 12px;
+      }
+    }
+  }
+}

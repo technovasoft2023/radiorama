@@ -1,0 +1,19 @@
+<svg id="{{SVG_ID}}" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1081.51 120" preserveAspectRatio="none">
+    {{SVG_STYLE_ID}}
+    {{SVG_DEF_ID}}
+	<polygon {{SVG_FILL_1_ID}} class="{{SVG_PATH_1_CLASS}} bklyn-section-separator-path-fill" points="0,21.63 0,19.63 579.42,19.62 599.04,0 1080,0 1080,2 599.87,2 580.25,21.62"/>
+	<polygon {{SVG_FILL_1_ID}} class="{{SVG_PATH_1_CLASS}} bklyn-section-separator-path-fill" points="712.3,39.11 460.6,39.11 426.34,4.85 0,4.86 0,2.86 427.17,2.85 461.42,37.11 712.3,37.11"/>
+	<polygon {{SVG_FILL_1_ID}} class="{{SVG_PATH_1_CLASS}} bklyn-section-separator-path-fill" points="537.43,76.58 385.66,76.58 370.86,61.77 0,61.77 0,59.77 371.68,59.77 386.49,74.58 536.6,74.58 554.08,57.09 712.3,57.09 712.3,59.09 554.91,59.09"/>
+	<polygon {{SVG_FILL_1_ID}} class="{{SVG_PATH_1_CLASS}} bklyn-section-separator-path-fill" points="221.29,93.7 96.64,93.7 85.4,82.46 0,82.46 0,80.46 86.23,80.46 97.47,91.7 220.46,91.7 275.05,37.11 385.36,37.11 385.36,39.11 275.88,39.11"/>
+	<polygon {{SVG_FILL_1_ID}} class="{{SVG_PATH_1_CLASS}} bklyn-section-separator-path-fill" points="962.99,15.58 924.9,15.58 957.74,47.23 924.9,78.88 962.99,78.88 995.83,47.23"/>
+	<polygon {{SVG_FILL_1_ID}} class="{{SVG_PATH_1_CLASS}} bklyn-section-separator-path-fill" points="1025.79,15.58 987.71,15.58 1020.55,47.23 987.71,78.88 1025.79,78.88 1058.64,47.23"/>
+	<polygon {{SVG_FILL_1_ID}} class="{{SVG_PATH_1_CLASS}} bklyn-section-separator-path-fill" points="900.18,15.58 862.1,15.58 894.94,47.23 862.1,78.88 900.18,78.88 933.03,47.23"/>
+	<polygon {{SVG_FILL_1_ID}} class="{{SVG_PATH_1_CLASS}} bklyn-section-separator-path-fill" points="837.38,15.58 799.29,15.58 832.13,47.23 799.29,78.88 837.38,78.88 870.22,47.23"/>
+	<polygon {{SVG_FILL_1_ID}} class="{{SVG_PATH_1_CLASS}} bklyn-section-separator-path-fill" points="774.57,15.58 736.48,15.58 769.33,47.23 736.48,78.88 774.57,78.88 807.42,47.23"/>
+	<polygon {{SVG_FILL_1_ID}} class="{{SVG_PATH_1_CLASS}} bklyn-section-separator-path-fill" points="691.91,78.88 707.45,78.88 694.05,91.79 678.51,91.79"/>
+	<polygon {{SVG_FILL_1_ID}} class="{{SVG_PATH_1_CLASS}} bklyn-section-separator-path-fill" points="669.51,78.88 685.05,78.88 671.65,91.79 656.11,91.79"/>
+	<polygon {{SVG_FILL_1_ID}} class="{{SVG_PATH_1_CLASS}} bklyn-section-separator-path-fill" points="647.1,78.88 662.64,78.88 649.24,91.79 633.7,91.79"/>
+	<polygon {{SVG_FILL_1_ID}} class="{{SVG_PATH_1_CLASS}} bklyn-section-separator-path-fill" points="624.7,78.88 640.24,78.88 626.84,91.79 611.3,91.79"/>
+	<polygon {{SVG_FILL_1_ID}} class="{{SVG_PATH_1_CLASS}} bklyn-section-separator-path-fill" points="602.3,78.88 617.84,78.88 604.44,91.79 588.9,91.79"/>
+	<polygon {{SVG_FILL_1_ID}} class="{{SVG_PATH_1_CLASS}} bklyn-section-separator-path-fill" points="579.9,78.88 595.44,78.88 582.04,91.79 566.5,91.79"/>
+</svg>

@@ -1,0 +1,98 @@
+.vc_ui-controls {
+  #ut_vc_navbar {
+    .vc_navbar-nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-direction: row-reverse;
+      position: relative;
+      padding:0;
+      margin: 0;
+      height: 42px;
+      background:rgb(40, 45, 51) !important;
+      //box-shadow: 3px 1px 6px 2px #dfdfdf;
+      .vc_dropdown {
+        position: relative;
+        &:hover > .vc_dropdown-list {
+          display: block;
+        }
+      }
+      .screens {
+        .vc_dropdown-list {
+          top: -196px;
+          right: 18px;
+          padding: 6px 12px 6px 0px;
+          width: 26px;
+          li {
+            padding: 5px;
+            a {
+              padding: 5px;
+            }
+          }
+        }
+      }
+      li {
+        margin-bottom: 0;
+        border-right: 1px solid #424242;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        background: transparent;
+        transition: all 300ms;
+        &:hover {
+          background: #028E2D;
+        }
+        &:first-child {
+          border-right: 0;
+        }
+      }
+      #vc_more-options {
+        .vc_dropdown-list {
+          min-width: 116px;
+        }
+      }
+
+      a {
+        color: #fff;
+        text-decoration: none;
+        padding: 12px 32px;
+      }
+      .vc-nav-options {
+        margin-right: 0;
+        padding-right: 12px;
+        padding-left: 6px;
+      }
+      .vc_nav-actions {
+        margin-right: 10px;
+      }
+      .vc_undo-redo[disabled="disabled"] {
+        opacity: 0.5;
+        cursor: not-allowed;
+      }
+      .vc_btn.vc_navbar-btn {
+        margin: 0;
+        color: #111;
+        background: #2ee636;
+        transition: all 300ms;
+        height: 32px;
+        width: 110px;
+        &:hover {
+          background: #15b71d !important;
+        }
+      }
+      .vc_dropdown-list {
+        display: none;
+        position: absolute;
+        top: -20px;
+        right: -10px;
+        background: rgb(40, 45, 51);
+        padding: 10px;
+        z-index: 9999;
+        box-shadow: 1px 5px 2px 1px rgb(40, 45, 51);
+      }
+    }
+  }
+}

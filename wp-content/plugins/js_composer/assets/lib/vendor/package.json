@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "5.15.4",
+    "@popperjs/core": "^2.11.8",
+    "ace-builds": "^1.33.2",
+    "animate.css": "^3.7.2",
+    "bootstrap3": "^3.3.5",
+    "chart.js": "^3.6.2",
+    "flexslider": "^2.7.2",
+    "imagesloaded": "^5.0.0",
+    "isotope-layout": "^3.0.6",
+    "jquery-zoom": "^1.7.21",
+    "jquery.scrollto": "^2.1.3",
+    "json-js": "^1.1.2",
+    "less": "^2.7.3",
+    "lightbox2": "^2.11.4",
+    "masonry-layout": "^4.2.2",
+    "nivo-slider": "^3.2.0",
+    "skrollr": "^0.6.26",
+    "twbs-pagination": "^1.4.2"
+  }
+}

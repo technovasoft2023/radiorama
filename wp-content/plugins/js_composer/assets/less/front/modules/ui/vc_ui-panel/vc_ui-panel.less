@@ -1,0 +1,62 @@
+body:not(.is-fullscreen) .vc_ui-panel.vc_ui-panel-window {
+  padding: 0;
+  left: 50px !important;
+  top: 4px !important;
+  width: 346px !important;
+  height: calc(100% - 87px) !important;
+  max-height: none !important;
+  min-height: 320px !important;
+  &.vc_active {
+    display: block !important;
+  }
+  .vc_ui-panel-content {
+    margin-top: unset !important;
+    min-height: 82vh;
+  }
+  .vc_ui-panel-window-inner {
+    height: 100%;
+  }
+
+}
+.vc_ui-panel-window-inner {
+  width: 100%;
+}
+.vc_ui-panel.vc_ui-panel-window {
+  .ut_preloader {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .vc_ui-panel-footer-container {
+    background: transparent;
+    padding: 0;
+    .vc_ui-button-group {
+      width: 100%;
+      .vc_ui-button {
+        width: 100%;
+        border-radius: 0;
+        height: 34px;
+        line-height: 20px;
+        margin: 0;
+      }
+    }
+    span[data-vc-ui-element="button-close"] {
+      display: none;
+    }
+  }
+  input[type="text"], input[type="password"], input[type="color"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="email"], input[type="month"], input[type="number"], input[type="search"], input[type="tel"], input[type="time"], input[type="url"], input[type="week"], select, textarea {
+    border: 1px solid #e1e2e8;
+    color: #5b636b;
+    font-size: 12px;
+  }
+}
+body:not(.is-fullscreen) .vc_ui-panel-window-inner {
+  box-shadow: none !important;
+}
+#wpwrap .vc_ui-button.vc_ui-button-action, #wpwrap .vc_ui-panel-footer .vc_ui-button.vc_ui-button-action {
+  background: rgb(221 221 221) !important;
+  &:hover {
+    background-color: #15b71d !important;
+    color: #fff;
+  }
+}

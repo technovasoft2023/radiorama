@@ -1,0 +1,27 @@
+.append-mode {
+  background: rgba(230, 192, 46, 0.53);
+  position: absolute;
+  top: 100px;
+  z-index: 2;
+  padding: 4px 12px;
+  width: 275px;
+  transition: transform 300ms;
+  transform: translateX(-358px);
+  transition-delay: 300ms;
+  &.is-open {
+    transform: translateX(0);
+  }
+  span {
+    font-size: 13px;
+    letter-spacing: 0.2px;
+    span {
+      font-weight: 600;
+    }
+  }
+  button {
+    background: none;
+    border: none;
+    box-shadow: none;
+    cursor: pointer;
+  }
+}

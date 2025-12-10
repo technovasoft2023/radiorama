@@ -1,0 +1,106 @@
+/** Color picker field **/
+.wpb_el_type_colorpicker,
+.vc_edit_form_elements .wpb_el_type_colorpicker {
+  .colorpicker_field {
+    display: inline-block;
+    width: 90px;
+    padding: 4px 3px 3px;
+
+  }
+  .wp-picker-clear {
+    width: auto;
+  }
+}
+
+.edit_form_line {
+  .updated {
+    margin: 5px 0px 2px;
+  }
+  button.pcr-button {
+    box-shadow: 0 0 3px 1px rgba(0,0,0,0.16)
+  }
+  .pcr-app[data-theme=classic] .pcr-selection .pcr-color-preview {
+    border: 1px solid #f1f1f1;
+  }
+}
+
+// Fix for bootstrap modal and autocomplete z-index
+.vc_ui-front {
+  z-index: 100052 !important;
+}
+
+.vc_color-picker {
+  &.wp-picker-container {
+    width: auto;
+  }
+  .wp-picker-clear {
+    padding: 2px 4px;
+  }
+  
+  .wp-picker-holder {
+    z-index: 10000;
+    position: relative;
+
+    .vc_alpha-wrapper {
+      position: absolute;
+      width: 256px;
+      left: -1px;
+      z-index: 1000;
+      bottom: -74px;
+      padding-bottom: 10px;
+    }
+    .vc_alpha-container {
+      border-radius: 0;
+      border: 1px solid #dfdfdf;
+      padding: 6px;
+      background: #ffffff;
+      position: absolute;
+      width: 243px;
+      left: -1px;
+      z-index: 1000;
+      bottom: -64px;
+      label {
+        display: block;
+        output {
+          padding-top: 0px;
+          display: inline;
+          vertical-align: top;
+        }
+      }
+      input {
+        padding: 0;
+        margin: 0;
+        width: 100%;
+      }
+    }
+  }
+}
+.pcr-app[data-theme=classic] {
+  width: 19.5em !important;
+  max-width: 95vw;
+  padding: .8em;
+}
+.pcr-app .pcr-interaction input {
+  width: unset !important;
+  min-height: 32px !important;
+  height: unset;
+}
+.pcr-app[data-theme=classic] .pcr-selection .pcr-color-palette {
+  width: 100%;
+  height: 14em;
+  z-index: 1;
+}
+.pcr-app {
+
+  position: static !important;
+  left: 0 !important;
+  top: 0 !important;
+  max-height: 0;
+  transition: max-height 300ms;
+  transition-delay: 200ms;
+  display: none !important;
+  &.visible {
+    display: flex !important;
+    max-height: 300px;
+  }
+}

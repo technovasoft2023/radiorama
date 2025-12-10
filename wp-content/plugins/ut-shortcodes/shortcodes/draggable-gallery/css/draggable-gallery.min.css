@@ -1,0 +1,1 @@
+.ut-draggable-gallery{display:flex}.ut-draggable-gallery-wrap{display:flex;align-items:center;overflow:visible}.ut-draggable-gallery-wrap .gallery-image{position:relative;padding-right:40px;width:400px}.ut-draggable-gallery-wrap .img-wrap img{object-fit:cover;height:450px;width:auto}.ut-draggable-gallery-wrap.ut-gallery-rounded img{border-radius:20px}
